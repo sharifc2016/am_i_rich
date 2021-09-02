@@ -8,10 +8,11 @@ void main() {
           title: Text('I am rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Center(child: Image(
-          image: NetworkImage(
-              'https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg'),
-        ),),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/choco.jpg')
+          ),
+        ),
         backgroundColor: Colors.blueGrey[500],
       ),
     ),
